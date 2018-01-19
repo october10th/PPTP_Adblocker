@@ -76,42 +76,21 @@ function coverContainer(container, coverText, matchingText, deepestOnly, isAd, h
 
     //Kemono images
     var imageSrcs = [
-        "https://pbs.twimg.com/media/DRFcbJhVoAY6T77.jpg",
-        "https://pbs.twimg.com/media/DQ2WFD-VwAE0rE9.jpg",
-        "https://pbs.twimg.com/media/DQ2WFECVwAEVvqo.jpg",
-        "https://pbs.twimg.com/media/DTVKzXPU8AA2JUQ.jpg",
-        "https://pbs.twimg.com/media/DESeFnBVYAApYEF.jpg",
-        "https://pbs.twimg.com/media/DESd43RVYAAIiYC.jpg",
-        "https://pbs.twimg.com/media/DTFh5QrU8AAjKId.jpg",
-        "https://pbs.twimg.com/media/DTFh5QqV4AAYrB1.jpg",
-        "https://pbs.twimg.com/media/DCsMgrzVwAAswg0.jpg",
-        "https://pbs.twimg.com/media/DCsMgtQUIAAQTpq.jpg",
-        "https://pbs.twimg.com/media/C_N3IyIUwAAk9Bu.jpg",
-        "https://pbs.twimg.com/media/C8VhpcMVYAQugj7.jpg",
-        "https://pbs.twimg.com/media/C8VhilbU0AEzsdG.jpg",
-        "https://pbs.twimg.com/media/C8VfhXbUMAQbOgs.jpg"
-        // "https://pbs.twimg.com/media/C46fOL7VcAAM4H-.jpg",
-        // "https://pbs.twimg.com/media/C5cdRXyUoAEQ8HK.jpg",
-        // "https://pbs.twimg.com/media/C7rkymbVwAAE11F.jpg",
-        // "https://pbs.twimg.com/media/C7HmZy4VAAETPGR.jpg",
-        // "https://pbs.twimg.com/media/C7Hmew-UwAEOBox.jpg",
-        // "https://pbs.twimg.com/media/C6ispvmVwAAKLvZ.jpg",
-        // "https://pbs.twimg.com/media/C6issRcV0AIXjll.jpg",
-        // "https://pbs.twimg.com/media/C5-jiooUsAAmOJy.jpg",
-        // "https://pbs.twimg.com/media/C5-jlo2UYAAIVcT.jpg",
-        // "https://pbs.twimg.com/media/C5atYAoUwAAoEBz.jpg",
-        // "https://pbs.twimg.com/media/C5atflpUYAADBbS.jpg",
-        // "https://pbs.twimg.com/media/C5atg0BUoAA_zNu.jpg",
-        // "https://pbs.twimg.com/media/C42iwUAUoAAY8HV.jpg",
-        // "https://pbs.twimg.com/media/C42iyZtUcAAof4R.jpg",
-        // "https://pbs.twimg.com/media/C42i0tqUEAEOffq.jpg",
-        // "https://pbs.twimg.com/media/C4nf2a-VcAMGy-3.jpg",
-        // "https://pbs.twimg.com/media/C3t7WvCVcAAsBoo.jpg",
-        // "https://pbs.twimg.com/media/C3t7a5LVYAAl2Kd.jpg",
-        // "https://pbs.twimg.com/media/C3KH9iQVMAIIgda.jpg",
-        // "https://pbs.twimg.com/media/C2h5KX4UcAID-Fe.jpg",
-        // "https://pbs.twimg.com/media/C2h5WoJUcAA-qF_.jpg",
-        // "https://pbs.twimg.com/media/C2h5XxQUQAALHkl.jpg"
+        "https://pbs.twimg.com/media/DRFcbJhVoAY6T77.jpg", // POP w
+        "https://pbs.twimg.com/media/DQ2WFD-VwAE0rE9.jpg", // DVD vol.1
+        "https://pbs.twimg.com/media/DQ2WFECVwAEVvqo.jpg", // BD  vol.1
+        "https://pbs.twimg.com/media/DTVKzXPU8AA2JUQ.jpg", // shop 2nd season
+        "https://pbs.twimg.com/media/DESeFnBVYAApYEF.jpg", // shop
+        "https://pbs.twimg.com/media/DESd43RVYAAIiYC.jpg", // sit
+        "https://pbs.twimg.com/media/DTFh5QrU8AAjKId.jpg", // POP  凸
+        "https://pbs.twimg.com/media/DTFh5QqV4AAYrB1.jpg", // PIPI 凸
+        "https://pbs.twimg.com/media/DCsMgrzVwAAswg0.jpg", // POP  < o w o >
+        "https://pbs.twimg.com/media/DCsMgtQUIAAQTpq.jpg", // PIPI \ o w o /
+        "https://pbs.twimg.com/media/C_N3IyIUwAAk9Bu.jpg", // POP PIPI
+        "https://pbs.twimg.com/media/C8VhpcMVYAQugj7.jpg", // PIPI / o w o \
+        "https://pbs.twimg.com/media/C8VhilbU0AEzsdG.jpg", // POP  / o w o \
+        "https://pbs.twimg.com/media/C8VfhXbUMAQbOgs.jpg"  // snow
+
     ];
     imgSrc = imageSrcs[Math.floor(Math.random() * imageSrcs.length)]
 
