@@ -108,7 +108,7 @@ function coverContainer(container, coverText, matchingText, deepestOnly, isAd, h
     prepend += "</div>"
     prepend += "<div style=\"position: absolute; width: 100%; text-align:center;\">"
     prepend += "<span style=\"font-size:40px; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;\">"
-    prepend += "おこった？"
+    prepend += "怒った？"
     prepend += "</span>"
     prepend += "<br/>"
         // if we have "Sponsored" text in another language, add it below "THIS IS AN AD"
