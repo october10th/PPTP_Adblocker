@@ -7,7 +7,7 @@ if (typeof NON_ENGLISH_LOCALE === 'undefined') {
 
 // return whether the container is already covered
 function alreadyCovered(container) {
-    return (container.find(".KAB_adBlockerCover").length > 0)
+    return (container.find(".PPTP_adBlockerCover").length > 0)
 }
 
 // true if we want to overlay non-ads as well
@@ -19,8 +19,8 @@ var showNonAd = false;
 // icon has been added and it changed from non-ad to ad, we do want
 // to update.
 function alreadyCoveredSameType(container, newCoverIsAd) {
-    var alreadyCovered = (container.find(".KAB_adBlockerCover").length > 0)
-    var alreadyAd = (container.find(".KAB_isAnAd").length > 0)
+    var alreadyCovered = (container.find(".PPTP_adBlockerCover").length > 0)
+    var alreadyAd = (container.find(".PPTP_isAnAd").length > 0)
     return alreadyCovered && (alreadyAd || !newCoverIsAd)
 }
 
@@ -46,18 +46,18 @@ function coverContainer(container, coverText, matchingText, deepestOnly, isAd, h
     }
 
     // remove any existing covers (if we are moving from non-ad to ad)
-    container.find(".KAB_adBlockerCover").remove()
+    container.find(".PPTP_adBlockerCover").remove()
 
     // vary the color and classes based on whether this is an ad or not.
     var color
-    var classes = "KAB_adBlockerCover"
+    var classes = "PPTP_adBlockerCover"
     if (isAd) {
         if (showNonAd) {
             color = "rgba(255, 0, 0, 0.8)"
         } else {
             color = "rgba(255, 255, 255, 0.8)"
         }
-        classes += " KAB_isAnAd"
+        classes += " PPTP_isAnAd"
     } else {
         color = "rgba(255, 255, 255, 0.8)"
     }
@@ -98,10 +98,10 @@ function coverContainer(container, coverText, matchingText, deepestOnly, isAd, h
 
     // create the cover to prepend.
     var prepend = "<div class=\"" + classes + "\" style=\"height: " + setHeight + ";position: absolute;width: 100%; color:white; background-color: " + color + " !important; opacity: 0.95; z-index: 100; visibility: visible; display:flex; display:flex; flex-direction:column; justify-content:center; align-items:center; flex-wrap:nowrap; overflow: hidden;\">"
-    prepend += "<div id=\"KAB_filter\" style=\"position: absolute;height:100%; width:100%; background-image: url(" + imgSrc + "); background-position: center; background-size:cover; background-color:rgba(0,0,0,0.3); display:flex;\">"
+    prepend += "<div id=\"PPTP_filter\" style=\"position: absolute;height:100%; width:100%; background-image: url(" + imgSrc + "); background-position: center; background-size:cover; background-color:rgba(0,0,0,0.3); display:flex;\">"
     prepend += "</div>"
-    prepend += "<style>#KAB_filter{filter:brightness(0.9);} #KAB_filter:hover{opacity:0.7;filter:blur(7px) brightness(0.4);}</style>"
-    prepend += "<div class=\"KAB_closeButton\" style=\"position: absolute; right: 5px; top: 5px; cursor: pointer; padding: 0px 3px; border: 1px solid black; border-radius: 5px\">"
+    prepend += "<style>#PPTP_filter{filter:brightness(0.9);} #PPTP_filter:hover{opacity:0.7;filter:blur(7px) brightness(0.4);}</style>"
+    prepend += "<div class=\"PPTP_closeButton\" style=\"position: absolute; right: 5px; top: 5px; cursor: pointer; padding: 0px 3px; border: 1px solid black; border-radius: 5px\">"
     prepend += "<strong>"
     prepend += "X"
     prepend += "</strong>"
@@ -136,19 +136,19 @@ function coverContainer(container, coverText, matchingText, deepestOnly, isAd, h
         // if we only want the deepest, remove any above this
     if (deepestOnly) {
         container.parents().each(function(index) {
-            $(this).children(".KAB_adBlockerCover").remove()
+            $(this).children(".PPTP_adBlockerCover").remove()
         })
     }
     // if we only want the deepest covers and there is a cover within
     // this container already, don't ad this cover.
-    if (!deepestOnly || !(container.find(".KAB_adBlockerCover").length > 0)) {
+    if (!deepestOnly || !(container.find(".PPTP_adBlockerCover").length > 0)) {
         // prepend the cover
         container.css("position", "relative")
         container.prepend(myPrepend)
 
         // make sure the close button closes the cover
-        container.children().children(".KAB_closeButton").on("click", function() {
-            container.children(".KAB_adBlockerCover").css("visibility", "hidden")
+        container.children().children(".PPTP_closeButton").on("click", function() {
+            container.children(".PPTP_adBlockerCover").css("visibility", "hidden")
         });
     }
 
