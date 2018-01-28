@@ -93,7 +93,8 @@ function coverContainer(container, coverText, matchingText, deepestOnly, isAd, h
         "https://pbs.twimg.com/media/DTvfza4VAAE8u8h.jpg", // scramble
         "https://pbs.twimg.com/media/DTvf2MeUQAEoVlE.jpg", // ball
         "https://pbs.twimg.com/media/DP8GNcwVQAAKX6b.jpg", // wafuku
-        "https://pbs.twimg.com/media/DBHrxjQWAAAypme.jpg"  // start
+        "https://pbs.twimg.com/media/DBHrxjQWAAAypme.jpg", // start
+        "https://pbs.twimg.com/media/DUdJkYjU0AAHJO1.jpg"  // knife
 
     ];
     imgSrc = imageSrcs[Math.floor(Math.random() * imageSrcs.length)]
