@@ -95,7 +95,10 @@ function coverContainer(container, coverText, matchingText, deepestOnly, isAd, h
         "https://pbs.twimg.com/media/DP8GNcwVQAAKX6b.jpg", // wafuku
         "https://pbs.twimg.com/media/DBHrxjQWAAAypme.jpg", // start
         "https://pbs.twimg.com/media/DUdJkYjU0AAHJO1.jpg", // knife
-        "https://pbs.twimg.com/media/DU4NKDYU8AEvmsO.jpg"  // PIPI melt
+        "https://pbs.twimg.com/media/DU4NKDYU8AEvmsO.jpg", // PIPI melt
+        "https://pbs.twimg.com/media/DVsAg08VMAAWUQY.jpg", // DVD vol.2
+        "https://pbs.twimg.com/media/DVsAg1AVAAA-5fJ.jpg"  // BD vol.2
+
 
 
     ];
