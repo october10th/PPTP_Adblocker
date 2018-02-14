@@ -97,7 +97,8 @@ function coverContainer(container, coverText, matchingText, deepestOnly, isAd, h
         "https://pbs.twimg.com/media/DUdJkYjU0AAHJO1.jpg", // knife
         "https://pbs.twimg.com/media/DU4NKDYU8AEvmsO.jpg", // PIPI melt
         "https://pbs.twimg.com/media/DVsAg08VMAAWUQY.jpg", // DVD vol.2
-        "https://pbs.twimg.com/media/DVsAg1AVAAA-5fJ.jpg"  // BD vol.2
+        "https://pbs.twimg.com/media/DVsAg1AVAAA-5fJ.jpg", // BD vol.2
+        "https://pbs.twimg.com/media/DV6h048UQAAJ66G.jpg"  // [5-3] ポプテピピック シーズン3【5】
 
 
 
