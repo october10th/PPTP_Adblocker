@@ -98,7 +98,10 @@ function coverContainer(container, coverText, matchingText, deepestOnly, isAd, h
         "https://pbs.twimg.com/media/DU4NKDYU8AEvmsO.jpg", // PIPI melt
         "https://pbs.twimg.com/media/DVsAg08VMAAWUQY.jpg", // DVD vol.2
         "https://pbs.twimg.com/media/DVsAg1AVAAA-5fJ.jpg", // BD vol.2
-        "https://pbs.twimg.com/media/DV6h048UQAAJ66G.jpg"  // [5-3] ポプテピピック シーズン3【5】
+        "https://pbs.twimg.com/media/DV6h048UQAAJ66G.jpg", // [5-3] ポプテピピック シーズン3【5】
+        "https://pbs.twimg.com/media/DV_M1UYVMAEqfRf.jpg", // [5-4] ポプテピピック シーズン3【5】
+        "https://pbs.twimg.com/media/DXYJ9vYVQAAzFAY.jpg", // OST
+        "https://pbs.twimg.com/media/DXPtNv2VwAAe4-E.jpg"  // みんなくそ。
 
 
 
