@@ -74,7 +74,7 @@ function coverContainer(container, coverText, matchingText, deepestOnly, isAd, h
         setHeight = "100%"
     }
 
-    //Kemono images
+    // images
     var imageSrcs = [
         "https://pbs.twimg.com/media/DRFcbJhVoAY6T77.jpg", // POP w
         "https://pbs.twimg.com/media/DQ2WFD-VwAE0rE9.jpg", // DVD vol.1
@@ -101,7 +101,9 @@ function coverContainer(container, coverText, matchingText, deepestOnly, isAd, h
         "https://pbs.twimg.com/media/DV6h048UQAAJ66G.jpg", // [5-3] ポプテピピック シーズン3【5】
         "https://pbs.twimg.com/media/DV_M1UYVMAEqfRf.jpg", // [5-4] ポプテピピック シーズン3【5】
         "https://pbs.twimg.com/media/DXYJ9vYVQAAzFAY.jpg", // OST
-        "https://pbs.twimg.com/media/DXPtNv2VwAAe4-E.jpg"  // みんなくそ。
+        "https://pbs.twimg.com/media/DXPtNv2VwAAe4-E.jpg", // みんなくそ。
+        "https://pbs.twimg.com/media/DX8M9OzU8AA6iK-.jpg", // BD vol.3
+        "https://pbs.twimg.com/media/DX8M9O1VoAAcpll.jpg"  // DVD vol.3
 
 
 
