@@ -103,7 +103,8 @@ function coverContainer(container, coverText, matchingText, deepestOnly, isAd, h
         "https://pbs.twimg.com/media/DXYJ9vYVQAAzFAY.jpg", // OST
         "https://pbs.twimg.com/media/DXPtNv2VwAAe4-E.jpg", // みんなくそ。
         "https://pbs.twimg.com/media/DX8M9OzU8AA6iK-.jpg", // BD vol.3
-        "https://pbs.twimg.com/media/DX8M9O1VoAAcpll.jpg"  // DVD vol.3
+        "https://pbs.twimg.com/media/DX8M9O1VoAAcpll.jpg", // DVD vol.3
+        "https://pbs.twimg.com/media/DYgTqiyU8AA1CDl.jpg"  // ボブネミミッミ
 
 
 
